@@ -1,8 +1,8 @@
 import './index.css'
 import { useState, useEffect } from 'react'
-import { supabase } from './config/supabaseClient'
-import Auth from './components/Auth'
-import Routes from './components/Routes/Routes'
+import { supabase } from './supabaseClient'
+import Auth from './Auth'
+import Routes from 'Routes'
 
 
 
@@ -26,9 +26,4 @@ export default function Home() {
            
 </div>
   );
-
-
-            <
-            /div>
-        );
-    }}
+}
