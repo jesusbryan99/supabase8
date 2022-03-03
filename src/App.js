@@ -1,12 +1,13 @@
 import './index.css'
 import { useState, useEffect } from 'react'
-import { supabase } from './supabaseClient'
-import Auth from './Auth'
-import Routes from 'Routes'
+import { supabase } from './config/supabaseClient'
+import Auth from './components/Auth'
+import Routes from './components/Routes/Routes'
 
 
 
 export default function Home() {
+ // alert('hola');
   const [session, setSession] = useState(null)
 
   useEffect(() => {
